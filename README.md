@@ -5,10 +5,13 @@
 [Mohsen Gholami](https://scholar.google.ca/citations?hl=en&user=6zlnAJgAAAAJ&view_op=list_works&sortby=pubdate), [Mohammad Akabri](https://scholar.google.ca/citations?user=-88eCXIAAAAJ&hl=en), [Kevin Cannons](https://scholar.google.com/citations?user=2JtzQe4AAAAJ&hl=en), [Yong Zhang](https://scholar.google.ca/citations?user=K2zamrwAAAAJ&hl=en),
 
 Huawei Technologies Canada
+
+[![arxiv paper](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/pdf/2503.05936)
+
 </div>
 
 
-[![arxiv paper](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/2503.07608)
+
 
 The code will be released soon...
 <p float="left">

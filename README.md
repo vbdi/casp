@@ -22,8 +22,6 @@ The code will be released soon...
 ##  Highlights
 
 * CASP proposes a 2-bit compression method for VLMs that is compatible with any quantization technique and enhances state-of-the-art 2-bit quantization methods (AQLM and QuIP#) by an average of 21% on image- and video-language benchmarks
-## 📚 Citation
-If you find CASP useful in your research or applications, please consider giving us a star &#127775; and citing it by the following BibTeX entry.
 
 
 ### CASP<sub>QuIP\#</sub> :
@@ -66,7 +64,10 @@ Follow the below steps to prepare CASP<sub>GPTQ</sub>
 2. Quantization:
 
     ` bash GPTQ/scripts/quantize_llava.sh`
-    
+
+
+## 📚 Citation
+If you find CASP useful in your research or applications, please consider giving us a star &#127775; and citing it by the following BibTeX entry.
 ```bibtex
 @misc{gholami2025caspcompressionlargemultimodal,
       title={CASP: Compression of Large Multimodal Models Based on Attention Sparsity}, 

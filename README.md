@@ -31,7 +31,9 @@ Follow the below steps to prepare CASP<sub>QuIP\#</sub>
 
 1. To prepare llava with low-rank compressed W<sub>q</sub> and W<sub>k</sub> :
 
-    ``` bash SVD/scripts/svd_llava.sh```
+    ```bash 
+    SVD/scripts/svd_llava.sh
+    ```
 
 2. To prepare hessians for QuIP\#:
 

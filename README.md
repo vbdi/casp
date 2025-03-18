@@ -12,7 +12,6 @@ Huawei Technologies Canada
 
 
 
-
 The code will be released soon...
 <p float="left">
   <img src="assets/teaser.png" alt="Image 1" width="38%" />
@@ -35,7 +34,7 @@ Follow the below steps to prepare CASP<sub>QuIP\#</sub>
     bash SVD/scripts/svd_llava.sh
     ```
 
-2. To prepare hessians for QuIP\#:
+2. To prepare Hessians for QuIP\#:
 
     ``` 
     bash quip-sharp/scripts/hfize_llava.sh 

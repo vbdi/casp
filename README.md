@@ -35,7 +35,7 @@ Huawei Technologies Canada
 
 Follow the below steps to prepare CASP<sub>QuIP\#</sub>
 
-1. To prepare llava with low-rank compressed W<sub>q</sub> and W<sub>k</sub> :
+1. To prepare LLaVA-1.5-7B with low-rank compressed W<sub>q</sub> and W<sub>k</sub>. If you want to quantize LLaVA-1.5-13B or LLaVA-Next you can set the ```--model``` accordingly. If you want to qunatize LLaMA-7B you should use ```svd_llama.sh```,```hfize_llava.sh```, and  ```quantize_finetune_llava.sh``` in the below steps.
 
     ```
     bash SVD/scripts/svd_llava.sh

@@ -33,9 +33,9 @@ Huawei Technologies Canada
 ##  Quantization:
 #### CASP<sub>QuIP\#</sub> :
 
-Follow the below steps to prepare CASP<sub>QuIP\#</sub>
+Follow the below steps to prepare CASP<sub>QuIP\#</sub> for LLaVA-1.5-7B. If you want to quantize LLaVA-1.5-13B or LLaVA-Next you can set the ```--model``` in the scripts accordingly. If you want to qunatize LLaMA-7B you should use ```svd_llama.sh```,```hfize_llava.sh```, and  ```quantize_finetune_llava.sh``` in the below steps.
 
-1. To prepare LLaVA-1.5-7B with low-rank compressed W<sub>q</sub> and W<sub>k</sub>. If you want to quantize LLaVA-1.5-13B or LLaVA-Next you can set the ```--model``` accordingly. If you want to qunatize LLaMA-7B you should use ```svd_llama.sh```,```hfize_llava.sh```, and  ```quantize_finetune_llava.sh``` in the below steps.
+1. To prepare LLaVA-1.5-7B with low-rank compressed W<sub>q</sub> and W<sub>k</sub>. 
 
     ```
     bash SVD/scripts/svd_llava.sh
@@ -55,7 +55,7 @@ Follow the below steps to prepare CASP<sub>QuIP\#</sub>
 
 #### CASP<sub>AQLM</sub> :
 
-Follow the below steps to prepare CASP<sub>AQLM</sub>
+Follow the below steps to prepare CASP<sub>AQLM</sub> for LLaVA-1.5-7B. If you want to quantize LLaVA-1.5-13B or LLaVA-Next you can set the ```--model``` in the scripts accordingly. If you want to qunatize LLaMA-7B you should use ```svd_llama.sh``` and ```quantize_llava.sh``` in the below steps.
 
 1. To prepare llava with low-rank compressed W<sub>q</sub> and W<sub>k</sub> :
 
@@ -72,9 +72,9 @@ Follow the below steps to prepare CASP<sub>AQLM</sub>
 
 #### CASP<sub>GPTQ</sub> :
 
-Follow the below steps to prepare CASP<sub>GPTQ</sub>
+Follow the below steps to prepare CASP<sub>GPTQ</sub> for LLaVA-1.5-7B. If you want to quantize LLaVA-1.5-13B or LLaVA-Next you can set the ```--model``` in the scripts accordingly. If you want to qunatize LLaMA-7B you should use ```svd_llama.sh``` and ```quantize_llava.sh``` in the below steps.
 
-1. To prepare llava with low-rank compressed W<sub>q</sub> and W<sub>k</sub> :
+1. To prepare llava with low-rank compressed W<sub>q</sub> and W<sub>k</sub>:
 
     ```
     bash SVD/scripts/svd_llava.sh

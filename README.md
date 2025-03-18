@@ -11,8 +11,6 @@ Huawei Technologies Canada
 </div>
 
 
-
-The code will be released soon...
 <p float="left">
   <img src="assets/teaser.png" alt="Image 1" width="38%" />
   <img src="assets/figure_proof.png" alt="Image 2" width="58%" />
@@ -22,8 +20,17 @@ The code will be released soon...
 
 * CASP proposes a 2-bit compression method for VLMs that is compatible with any quantization technique and enhances state-of-the-art 2-bit quantization methods (AQLM and QuIP#) by an average of 21% on image- and video-language benchmarks
 
+## Installation:
+#### Quip#:
+- Install the requirements via pip install -r requirements.txt.
+- Build and install the CUDA inference kernels. (cd quip-sharp/quiptools && python setup.py install && cd ../)
+- Install the fast-hadamard-transform package using their [github repo](https://github.com/Dao-AILab/fast-hadamard-transform). 
+#### AQLM:
+    pip install aqlm[gpu,cpu]
+#### GPTQ:
 
-##  Quantization
+
+##  Quantization:
 #### CASP<sub>QuIP\#</sub> :
 
 Follow the below steps to prepare CASP<sub>QuIP\#</sub>
@@ -34,7 +41,7 @@ Follow the below steps to prepare CASP<sub>QuIP\#</sub>
     bash SVD/scripts/svd_llava.sh
     ```
 
-2. To prepare Hessians for QuIP\#:
+2. To prepare hessians for QuIP\#:
 
     ``` 
     bash quip-sharp/scripts/hfize_llava.sh 

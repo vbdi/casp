@@ -25,7 +25,7 @@ The code will be released soon...
 
 
 ##  Scripts
-### CASP<sub>QuIP\#</sub> :
+#### CASP<sub>QuIP\#</sub> :
 
 Follow the below steps to prepare CASP<sub>QuIP\#</sub>
 
@@ -37,36 +37,48 @@ Follow the below steps to prepare CASP<sub>QuIP\#</sub>
 
 2. To prepare hessians for QuIP\#:
 
-    ` bash quip-sharp/scripts/hfize_llava.sh `
+    ``` 
+    bash quip-sharp/scripts/hfize_llava.sh 
+    ```
 
 3. Quantization:
 
-    ` bash quip-sharp/scripts/quantize_finetune_llava.sh `
+    ```
+    bash quip-sharp/scripts/quantize_finetune_llava.sh 
+    ```
 
-### CASP<sub>AQLM</sub> :
+#### CASP<sub>AQLM</sub> :
 
 Follow the below steps to prepare CASP<sub>AQLM</sub>
 
 1. To prepare llava with low-rank compressed W<sub>q</sub> and W<sub>k</sub> :
 
-    ` bash SVD/scripts/svd_llava.sh`
+    ```
+    bash SVD/scripts/svd_llava.sh
+    ```
     
 2. Quantization:
 
-    ` bash AQLM/scripts/quantize_llava.sh `
+    ``` 
+    bash AQLM/scripts/quantize_llava.sh 
+    ```
 
 
-### CASP<sub>GPTQ</sub> :
+#### CASP<sub>GPTQ</sub> :
 
 Follow the below steps to prepare CASP<sub>GPTQ</sub>
 
 1. To prepare llava with low-rank compressed W<sub>q</sub> and W<sub>k</sub> :
 
-    ` bash SVD/scripts/svd_llava.sh`
+    ```
+    bash SVD/scripts/svd_llava.sh
+    ```
 
 2. Quantization:
 
-    ` bash GPTQ/scripts/quantize_llava.sh`
+    ``` 
+    bash GPTQ/scripts/quantize_llava.sh
+    ```
 
 
 ## 📚 Citation

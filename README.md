@@ -24,7 +24,7 @@ The code will be released soon...
 * CASP proposes a 2-bit compression method for VLMs that is compatible with any quantization technique and enhances state-of-the-art 2-bit quantization methods (AQLM and QuIP#) by an average of 21% on image- and video-language benchmarks
 
 
-##  Scripts
+##  Quantization
 #### CASP<sub>QuIP\#</sub> :
 
 Follow the below steps to prepare CASP<sub>QuIP\#</sub>

@@ -8,6 +8,8 @@ Huawei Technologies Canada
 
 [![arxiv paper](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/pdf/2503.05936)
 
+Link to Huawei's AI Gallery Notebook: [https://developer.huaweicloud.com/develop/aigallery/notebook/detail?id=27904e61-36d1-4a72-97f3-b6ed57905f99](https://developer.huaweicloud.com/develop/aigallery/notebook/detail?id=27904e61-36d1-4a72-97f3-b6ed57905f99)
+
 </div>
 
 

@@ -1,6 +1,6 @@
 <div align ="center">
 
-<h2>CASP: Compression of Large Multimodal Models Based on Attention Sparsity</h2>
+<h2> [CVPR 2025 Highlight] CASP: Compression of Large Multimodal Models Based on Attention Sparsity</h2>
 
 [Mohsen Gholami](https://scholar.google.ca/citations?hl=en&user=6zlnAJgAAAAJ&view_op=list_works&sortby=pubdate), [Mohammad Akabri](https://scholar.google.ca/citations?user=-88eCXIAAAAJ&hl=en), [Kevin Cannons](https://scholar.google.com/citations?user=2JtzQe4AAAAJ&hl=en), [Yong Zhang](https://scholar.google.ca/citations?user=K2zamrwAAAAJ&hl=en),
 
